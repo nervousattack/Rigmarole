@@ -1,15 +1,15 @@
 @font-face {
-  font-family: "Simula";
-  src: url(fonts/Simula-Book.otf); }
+  font-family: "American";
+  src: url(fonts/American.otf); }
 
 @font-face {
-  font-family: "Simula";
-  font-style: italic;
-  src: url(fonts/Simula-BookItalic.otf); }
+  font-family: "Avantt";
+  font-style: normal;
+  src: url(fonts/Avantt.ttf); }
 
 @font-face {
-    font-family: "BallPill";
-    src: url(fonts/BallPill-regular.otf);
+    font-family: "Century";
+    src: url(fonts/Century.otf);
 }
 
 * {
@@ -41,7 +41,7 @@ body {
     -ms-transform: rotate(-90deg);
     transform: rotate(-90deg);
     color: white;
-    font-family: 'Avantt TRIAL';
+    font-family: 'Avantt';
 	font-weight: normal;
 	font-style: normal;
 	font-size: 1.25em;
@@ -52,7 +52,7 @@ body {
 	float: left;
 	background: #363427;
 	color: #FF312A;
-	font-family: 'Century Old Style Std';
+	font-family: 'Century';
 	font-weight: normal;
 	padding-bottom: 3%;
 }
@@ -69,7 +69,7 @@ body {
 	width: 100%;
 	font-family: ;
 	font-size: 18vw;
-	font-family: 'Test American Grotesk';
+	font-family: 'American';
 	font-weight: 900;
 	letter-spacing: -0.03em;
 	margin: -3% auto;
@@ -78,7 +78,7 @@ body {
 
 .subtitle {
 	width: 100%;
-	font-family: 'Avantt TRIAL';
+	font-family: 'Avantt';
 	clear: both;
 	font-size: 4vw;
 	font-weight: light;
@@ -112,19 +112,19 @@ body {
 .thelist {
 	margin: 20% 15% 0 15%;
 	font-size: 2vw;
-	font-family: 'Test American Grotesk';
+	font-family: 'American';
 	text-transform: uppercase;
 	font-weight: 900;
 }
 
 .titles {
-	font-family: 'Avantt TRIAL';
+	font-family: 'Avantt';
 	font-weight: 400;
 	font-style: normal;
 }
 
 .smalltype {
-	font-family: 'Avantt TRIAL';
+	font-family: 'Avantt';
 	font-weight: normal;
 	font-style: normal;
 	font-size: 1.25em;
