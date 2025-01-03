@@ -22,6 +22,7 @@ html {
 
 body {
 	text-align: center;
+	background: #FF312A;
 }
 
 
@@ -67,7 +68,6 @@ body {
 
 .bigtitle {
 	width: 100%;
-	font-family: ;
 	font-size: 18vw;
 	font-family: 'American';
 	font-weight: 900;
@@ -91,6 +91,11 @@ body {
 	font-size: 3vw;
 }
 
+.introsmall {
+	width: 100%;
+	clear: both;
+}
+
 .introsmallleft {
 	width: 30%;
 	float: left;
@@ -108,6 +113,10 @@ body {
 .clientlogos {
 	margin: 8% 15%;
 }
+
+.introsmallmobile {
+		display: none;
+	}
 
 .thelist {
 	margin: 20% 15% 0 15%;
@@ -130,3 +139,76 @@ body {
 	font-size: 1.25em;
 	margin: 3% 15% 0 15%;
 }
+
+/* RESPONSIVE ----------------------------- */
+@media screen and (max-width:670px){
+
+	#contact {
+		width: 100%;
+		top: 13%;
+		left: 0;
+		transform: rotate(0deg);
+	  -moz-transform: rotate(0deg);
+	  -o-transform: rotate(0deg);
+	  -ms-transform: rotate(0deg);
+	  transform: rotate(0deg);
+		font-size: 0.75em;
+	}
+
+	#topcontainer {
+		padding-bottom: 5%;
+	}
+
+	.bigtitle {
+		font-size: 17vw;
+	}
+
+	.subtitle {
+		width: 100%;
+		font-family: 'Avantt';
+		clear: both;
+		font-size: 4vw;
+		font-weight: 200;
+		font-style: normal;
+	}
+
+	.intro {
+		width: 90%;
+		margin: 20% 5% 0 5%;
+		font-size: 5vw;
+	}
+
+	.introsmall {
+		display: none;
+	}
+
+	.introsmallleft {
+		display: none;
+	}
+
+	.introsmallright {
+		display: none;
+	}
+
+	.introsmallmobile {
+		display: inline-block;
+		width: 90%;
+		margin: 0 5% 0 5%;
+		font-size: 3vw;
+	}
+
+	.thelist {
+		margin: 20% 5%;
+		font-size: 4vw;
+	}
+
+	.smalltype {
+		font-family: 'Avantt';
+		font-weight: normal;
+		font-style: normal;
+		font-size: .75em;
+		margin: 3% 15% 0 15%;
+	}
+
+}
+
