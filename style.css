@@ -21,7 +21,7 @@ html {
 
 body {
 	text-align: center;
-	background: #FF312A;
+	background: #fd5300;
 }
 
 
@@ -32,26 +32,21 @@ body {
 }
 
 #contact {
+	width: 100%;
 	position: fixed;
 	top: 35%;
-	left: -1%;
-	-webkit-transform: rotate(-90deg);
-  -moz-transform: rotate(-90deg);
-  -o-transform: rotate(-90deg);
-  -ms-transform: rotate(-90deg);
-  transform: rotate(-90deg);
+	left: 0;
   color: white;
-  font-family: 'Century';
-	font-weight: normal;
-	font-style: normal;
+  font-family: 'Avantt';
 	font-size: 1.25em;
+	text-transform: uppercase;
 }
 
 #topcontainer {
 	width: 100%;
 	float: left;
 	background: #363427;
-	color: #FF312A;
+	color: #fd5300;
 	font-family: 'Century';
 	font-weight: normal;
 	padding-bottom: 3%;
@@ -60,7 +55,7 @@ body {
 #bottomcontainer {
 	width: 100%;
 	float: left;
-	background: #FF312A;
+	background: #fd5300;
 	color: #363427;
 	padding-bottom: 3%;
 }
@@ -125,10 +120,11 @@ body {
 	font-family: 'Avantt';
 }
 
-.smalltype {
+footer {
 	font-family: 'Avantt';
 	font-size: 1.25em;
 	margin: 3% 15% 0 15%;
+	text-transform: uppercase;
 }
 
 /* RESPONSIVE ----------------------------- */
@@ -196,7 +192,7 @@ body {
 		font-size: 4vw;
 	}
 
-	.smalltype {
+	footer {
 		font-family: 'Avantt';
 		font-size: .75em;
 		margin: 3% 15% 0 15%;
