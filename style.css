@@ -34,9 +34,9 @@ body {
 #contact {
 	width: 100%;
 	position: fixed;
-	top: 35%;
+	top: 45%;
 	left: 0;
-  color: white;
+  color: #cdcdcd;
   font-family: 'Avantt';
 	font-size: 1.25em;
 	text-transform: uppercase;
