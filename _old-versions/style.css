@@ -1,0 +1,243 @@
+@font-face {
+  font-family: "American";
+  src: url(fonts/american-grotesk-bold.woff2); }
+
+@font-face {
+  font-family: "Avantt";
+  src: url(fonts/Avantt-Light.woff2); }
+
+@font-face {
+    font-family: "Century";
+    src: url(fonts/Century.otf);
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 100%;
+}
+
+body {
+	text-align: center;
+	background: #fc4700;
+}
+
+
+#overallcontainer {
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
+
+#contact {
+	width: 100%;
+	position: fixed;
+	top: 45%;
+	left: 0;
+  color: #cdcdcd;
+  font-family: 'Avantt';
+	font-size: 1.25em;
+	text-transform: uppercase;
+}
+
+#topcontainer {
+	width: 100%;
+	float: left;
+	background: #363427;
+	color: #fc4700;
+	font-family: 'Century';
+	font-weight: normal;
+	padding-bottom: 3%;
+}
+
+#bottomcontainer {
+	width: 100%;
+	float: left;
+	background: #fc4700;
+	color: #363427;
+	padding-bottom: 3%;
+}
+
+.bigtitle {
+	width: 100%;
+	font-size: 18vw;
+	font-family: 'American';
+	letter-spacing: -0.05em;
+	margin: -2.5% auto;
+	padding: 0;
+}
+
+.subtitle {
+	width: 100%;
+	font-family: 'Avantt';
+	clear: both;
+	font-size: 4vw;
+}
+
+.intro {
+	width: 90%;
+	margin: 20% 5% 0 5%;
+	font-size: 4vw;
+}
+
+.introsmall {
+	width: 100%;
+	clear: both;
+}
+
+.introsmallleft {
+	width: 35%;
+	float: left;
+	margin: 0 5% 0 10%;
+	font-size: 2.5vw;
+}
+
+.introsmallright {
+	width: 35%;
+	float: left;
+	margin: 0 10% 0 5%;
+	font-size: 2.5vw;
+}
+
+.clientlogos {
+	width: 25%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.introsmallmobile {
+		display: none;
+	}
+
+.thelist {
+	margin: 20% 5% 0 5%;
+	font-size: 4vw;
+	font-family: 'American';
+	text-transform: uppercase;
+}
+
+.titles {
+	font-family: 'Avantt';
+}
+
+footer {
+	font-family: 'Avantt';
+	font-size: 1.25em;
+	margin: 3% 15% 0 15%;
+	text-transform: uppercase;
+}
+
+img {
+	max-width: 99%;
+	margin: 0 auto;
+	padding: 0;
+	display: block;
+	border-style: none;
+	text-decoration: none;
+}
+
+
+
+/* LINKS --------------- */
+
+a:link {
+	text-decoration:none;
+	color: #cdcdcd;
+}
+
+a:visited {
+	text-decoration:none;
+	color: #cdcdcd;
+}
+
+a:hover{
+	text-decoration:none;
+	color: #727272;
+}
+
+a:active {
+	text-decoration:none;
+	color: #cdcdcd;
+}
+
+
+
+/* RESPONSIVE ----------------------------- */
+@media screen and (max-width:670px){
+
+	#contact {
+		width: 100%;
+		top: 13%;
+		left: 0;
+		transform: rotate(0deg);
+	  -moz-transform: rotate(0deg);
+	  -o-transform: rotate(0deg);
+	  -ms-transform: rotate(0deg);
+	  transform: rotate(0deg);
+		font-size: 1em;
+	}
+
+	#topcontainer {
+		padding-top: 1%;
+		padding-bottom: 5%;
+	}
+
+	#bottomcontainer {
+		padding-top: 1%;
+	}
+
+	.bigtitle {
+		font-size: 17vw;
+	}
+
+	.subtitle {
+		width: 100%;
+		font-family: 'Avantt';
+		clear: both;
+		font-size: 5vw;
+	}
+
+	.intro {
+		width: 90%;
+		margin: 20% 5% 0 5%;
+		font-size: 5vw;
+	}
+
+	.introsmall {
+		display: none;
+	}
+
+	.introsmallleft {
+		display: none;
+	}
+
+	.introsmallright {
+		display: none;
+	}
+
+	.introsmallmobile {
+		display: inline-block;
+		width: 90%;
+		margin: 0 5% 0 5%;
+		font-size: 5vw;
+	}
+
+	.clientlogos {
+		width: 60%;
+	}
+
+	.thelist {
+		margin: 20% 5%;
+		font-size: 5vw;
+	}
+
+	footer {
+		font-family: 'Avantt';
+		font-size: 1em;
+		margin: 3% 15% 0 15%;
+	}
+
+}
+
