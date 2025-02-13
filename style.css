@@ -76,6 +76,7 @@ body {
 	position: fixed;
 	bottom: 1%;
 	left: 1%;
+	font-family: 'Century';
 }
 
 .intro {
@@ -89,7 +90,6 @@ body {
 	width: 100%;
 	font-size: 1vw;
 	line-height: 1.2vw;
-	font-family: 'Century';
 }
 
 .column {
@@ -210,6 +210,65 @@ a:active {
 
 	.top {
 		width: 98%;
+		position: initial;
+		margin: 0 1%;
+	}
+
+	.bottom {
+		width: 98%;
+		position: initial;
+		margin: 1% 1%;
+	}
+
+	.subtitle {
+		font-size: 6vw;
+		margin-top: 0;
+	}
+
+	.subtitleleft {
+		font-size: 6vw;
+	}
+
+	.subtitleright {
+		font-size: 6vw;
+	}
+
+	.intro {
+		font-size: 4.5vw;
+		line-height: 4.5vw;
+		margin-bottom: 5%;
+		margin-top: 30%;
+	}
+
+	.thelist {
+		font-size: 4.5vw;
+		line-height: 4.5vw;
+	}
+
+	.column {
+		width: 50%;
+		float: left;
+		margin-right: 0;
+		margin-bottom: 5%;
+	}
+
+	.columnwide {
+		width: 100%;
+	}
+
+	.clientlogos {
+		width: 100%;
+	}
+
+	footer {
+		font-size: 8px;
+		margin: 2% auto;
+	}
+
+
+	/* all on screen ------------
+	.top {
+		width: 98%;
 	}
 
 	.bottom {
@@ -258,6 +317,7 @@ a:active {
 	footer {
 		font-size: 8px;
 	}
+	---------------------*/
 
 }
 
