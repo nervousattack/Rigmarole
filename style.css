@@ -50,7 +50,7 @@ body {
 	font-size: 4vw;
 	text-transform: uppercase;
 	float: left;
-	margin-top: 2%;
+	margin-top: 1.5%;
 }
 
 .subtitleleft {
@@ -81,15 +81,15 @@ body {
 
 .intro {
 	width: 100%;
-	font-size: 2vw;
+	font-size: 1.8vw;
 	line-height: 2vw;
-	margin-bottom: 2%;
+	margin-bottom: 1.5%;
 }
 
 .thelist {
 	width: 100%;
-	font-size: 1vw;
-	line-height: 1.2vw;
+	font-size: 1.14vw;
+	line-height: 1.3vw;
 }
 
 .column {
@@ -174,9 +174,9 @@ a:active {
 	}
 
 	.intro {
-		font-size: 3.5vw;
-		line-height: 3.5vw;
-		margin-bottom: 4%;
+		font-size: 3vw;
+		line-height: 3vw;
+		margin-bottom: 3%;
 	}
 
 	.thelist {
@@ -185,14 +185,13 @@ a:active {
 	}
 
 	.column {
-		width: 50%;
+		width: 24%;
 		float: left;
-		margin-right: 0;
 		margin-bottom: 2%;
 	}
 
 	.columnwide {
-		width: 100%;
+		width: 50%;
 	}
 
 	.clientlogos {
@@ -201,6 +200,10 @@ a:active {
 
 	footer {
 		font-size: 8px;
+	}
+
+	.clientlogos img {
+		max-width: 25%;
 	}
 
 }
@@ -222,7 +225,7 @@ a:active {
 
 	.subtitle {
 		font-size: 6vw;
-		margin-top: 0;
+		margin-top: 1%;
 	}
 
 	.subtitleleft {
@@ -235,14 +238,14 @@ a:active {
 
 	.intro {
 		font-size: 4.5vw;
-		line-height: 4.5vw;
+		line-height: 5.2vw;
 		margin-bottom: 5%;
 		margin-top: 30%;
 	}
 
 	.thelist {
 		font-size: 4.5vw;
-		line-height: 4.5vw;
+		line-height: 5.2vw;
 	}
 
 	.column {
@@ -254,6 +257,8 @@ a:active {
 
 	.columnwide {
 		width: 100%;
+		font-size: 2.5vw;
+		line-height: 3vw;
 	}
 
 	.clientlogos {
